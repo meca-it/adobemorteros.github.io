@@ -1,0 +1,180 @@
+/* Colores: Verde 92A623  Cafe 362010 */
+
+body{
+  background-color: #362010;
+
+}
+h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
+
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+#social-container{
+  background-color: #92A623;
+  font-size: 2em;
+}
+
+#logo-container .callout{
+  background-color: #efefef65;
+  color: white;
+  margin-bottom: 0;
+}
+
+#menu-container{
+  background-color: #92A623;
+}
+
+#menu-container li a{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+#menu-container li a:hover,
+#submenu-container li a:hover{
+  color: #f6e15f;
+}
+
+#submenu-container{
+  border: 0;
+}
+#submenu-container li a{
+      background-color: #92A623;
+      color: white;
+}
+
+#clientes-action .callout{
+  background-color:#362010;
+  color: #efefef;
+  margin-bottom: 0;
+}
+#clientes-action .callout button{
+  color: #efefef;
+  border: 1px solid white;
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+
+}
+
+#nosotros-container{
+  background-color: #efefef;
+  color: #92A623;
+  font-family: 'Lato', sans-serif;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 1em 0;
+
+}
+
+.orbit-container {
+  height: 400px;
+  margin-bottom: 1em;
+  position: relative;
+  width: 800px;
+}
+
+.orbit-container .orbit-slide{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+#clientes-container{
+  padding: 1em 0;
+  background-color: #efefef;
+  color: #92A623;
+}
+
+.button{
+  background'color: #92A623;
+  color: #362010;
+}
+
+
+
+#info-container{
+  background-color: #92A623;
+  color: white;
+  padding: 1em 0;
+}
+
+#info-container .info-map iframe{
+  width: 100%;
+}
+
+
+#contacto-container{
+  background-color: #92A623;
+  color: white;
+  padding: 1em 0;
+}
+
+#contacto-container h4 small{
+  color: #fdef9e;
+}
+
+#contacto-container .error-container{
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+.is-invalid-input:not(:focus) {
+    border-color: rgb(255,228,228);
+    background-color: rgb(255,228,228);
+}
+
+
+.data-sticky{
+  width: 100%;
+  z-index: 100;
+}
+
+#contacto-container .button{
+  background-color: #362010;
+}
+
+#offCanvas,
+#offCanvas li a{
+  background-color: #362010;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.drilldown .is-drilldown-submenu-parent > a::after{
+  border-color: transparent transparent transparent white;
+}
+
+.drilldown .js-drilldown-back > a::before{
+  border-color: transparent white transparent transparent;
+}
+
+
+#wrapper{
+  background-image: url("../img/adone3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:560px;
+  margin: 0;
+  max-width: 100%;
+  overflow: hidden;
+  /* padding: 0; */
+  /* position: relative; */
+  /* width: 100% !important; */
+}
+
+#clientes-frame{
+  border: 1px solid #362010;
+  border-radius: 15px 50px;
+  max-height: 150px;
+  height: 100%;
+  max-width: 150px;
+  width: 100%;
+  vertical-align: center;
+  padding: 2em;
+
+}
